@@ -1,0 +1,31 @@
+{
+  "name": "koa-wish",
+  "version": "1.0.0",
+  "description": "koa middleware",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ajv": "^8.6.0",
+    "ajv-errors": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@types/json-schema": "^7.0.7"
+  },
+  "scripts": {
+    "dev": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leekafai/koa-wish.git"
+  },
+  "author": "leekafai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leekafai/koa-wish/issues"
+  },
+  "homepage": "https://github.com/leekafai/koa-wish#readme"
+}
